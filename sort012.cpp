@@ -4,7 +4,7 @@ void sort(int *arr,int n){
     int low=0;
     int mid=0;
     int high=n-1;
-    while(mid<=10high){
+    while(mid<=high){
         if(arr[mid]==0){
             int temp=arr[low];
             arr[low]=arr[mid];
